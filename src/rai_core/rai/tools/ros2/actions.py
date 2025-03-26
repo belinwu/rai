@@ -28,7 +28,7 @@ from typing import Any, Callable, Dict, List, Type
 from langchain_core.tools import BaseTool, BaseToolkit  # type: ignore
 from pydantic import BaseModel, ConfigDict, Field
 
-from rai.communication.ros2.connectors import ROS2ARIConnector, ROS2ARIMessage
+from rai.communication.ros2 import ROS2ARIConnector, ROS2ARIMessage
 
 
 class ROS2ActionToolkit(BaseToolkit):
